@@ -1,10 +1,14 @@
+import Counter from "@/components/counter";
 import Link from "next/link";
 
-export default function Page() {
+const Page = () => {
   return (
     <>
       <Link href="/">Back to homepage</Link>
-      <h1>Hello, Counter page!</h1>
+      <h1>Counter</h1>
+      <Counter />
     </>
   );
-}
+};
+
+export default Page;
